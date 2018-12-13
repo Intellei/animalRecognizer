@@ -4,7 +4,7 @@ Make a serverless, image-recognition-backed Twitter bot.
 When a user tweets at the bot: `@YourBotName, what’s in this image?` The bot should reply with the name of the animal, `It’s a Cheetah!`
 
 ## Steps to complete this example:
- 1. Clone this repository: `https://github.com/samuelwshen/dogImageGenerator.git`
+ 1. Clone this repository: `https://github.com/Intellei/dogImageGenerator.git`
  2. Deploy serverless application with integration with Twitter that tweets "Hello World" on `GET` request to the endpoint (Using the starter code in this repository)
  3. Add Twitter webhook to process incoming tweets to '@YourBotName'. (Can still respond with "Hello World" at this stage)
      Will need to register the webhook on Twitter by triggering `GET` request to a different endpoint to verify the webhook:
