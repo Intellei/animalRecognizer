@@ -5,7 +5,7 @@ When a user tweets at the bot: `@YourBotName, what’s in this image?` The bot s
 
 ## Steps to complete this example:
  1. Clone this repository: `git clone https://github.com/Intellei/animalRecognizer.git`
-    2. Create a free private repository when you upload your code to github and provide our team with a link to access.
+ 2. Create a free private repository when you upload your code to github and provide our team with a link to access.
  3. Deploy serverless application with integration with Twitter that tweets "Hello World" on `GET` request to the endpoint (Using the starter code in this repository)
  4. Add Twitter webhook to process incoming tweets to '@YourBotName'. (Can still respond with "Hello World" at this stage)
      Will need to register the webhook on Twitter by triggering `GET` request to a different endpoint to verify the webhook:
