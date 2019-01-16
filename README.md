@@ -26,12 +26,13 @@ When a user tweets at the bot: `@YourBotName, what’s in this image?` The bot s
 
 ### If you are stuck on iamRoles here is what you can use to allow all resources to access:
 iamRoleStatements: 
+```
   - Effect: "Allow" 
     Action: 
       - rekognition:* 
       - s3:* 
     Resource: "*
-
+```
 ### If you are stuck verifying your crc token:
 - Make sure you convert the crc_token in the header to a string before trying to process it
 
