@@ -25,8 +25,8 @@ When a user tweets at the bot: `@YourBotName, what’s in this image?` The bot s
 - AWS Rekognition reference: https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/Rekognition.html
 
 ### If you are stuck on iamRoles here is what you can use to allow all resources to access:
-iamRoleStatements: 
 ```
+iamRoleStatements: 
   - Effect: "Allow" 
     Action: 
       - rekognition:* 
